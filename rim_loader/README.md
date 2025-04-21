@@ -32,7 +32,7 @@ The RIM loader can be punched to a paper tape using `memory to tape raw`. This c
 | `6`      |       | `CONSO PTR,10` | `71074-10 ` | Check if next word is ready...                               |
 | `7`      |       | `JRST .-1`     | `254-6`     | Jump back one if not                                         |
 | `10`     | `B:`  | `0`            | `0`         | Space for the instruction read from the tape                 |
-| `11`     |       | `JRST A`       | `253-3`     | Loop until an instruction is read in that jumps out or halts |
+| `11`     |       | `JRST A`       | `254-3`     | Loop until an instruction is read in that jumps out or halts |
 |          |       | `END`          |             |
 
 ## Binary
